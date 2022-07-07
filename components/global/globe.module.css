@@ -1,0 +1,75 @@
+.Gone{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.Gone span{
+    margin-top: 15px;
+    font-size: 2.5em;
+    font-weight: 600;
+ 
+
+}
+.Gone img{
+    width: 100%;
+    object-fit: contain;
+}   
+/* Blue Btton */
+.butblue {
+    color: white;
+    background: linear-gradient(180deg, #009CCC 0%, #00BCB3 100%);
+    box-shadow: 0px 8px 32px rgba(0, 188, 179, 0.16);
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+/* Black Btton */
+    .butblack{
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* sociAL iCONS */
+.Icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 200px;
+    position: relative;
+    top:10% ;
+    left: 5%;
+}
+.Icon img{
+        object-fit: contain;
+}
+@media only screen and (max-width: 600px) {
+    .Gone{
+        width: 100%;
+    }
+    .Gone span{
+        font-size: 25px;
+    }
+
+}

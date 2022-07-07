@@ -1,0 +1,105 @@
+.Tone {
+    font-family: popine;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    /* height: 100vh; */
+    display: flex;
+    margin-top: 50px;
+    background: linear-gradient(180deg, #0B0F12 0%, #0000 100%);
+
+}
+
+.Ttwo {
+    margin: 5px;
+    padding: 5px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Ima {
+    object-fit: contain;
+}
+
+.Tthree {
+    margin-left: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Tthree h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Tthree p {
+    font-weight: 200;
+    font-size: 18px;
+    max-width: 80%;
+    line-height: 33px;
+}
+
+.Trust {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Trust img {
+    object-fit: contain
+}
+ 
+/* for small device */
+@media only screen and (max-width: 600px) {
+    .Tone{
+        margin-top: 0px;
+        position: relative;
+        right: 20px;
+        width: 100%;
+    }
+    .Ttwo{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 1px;
+        margin: 1px;
+        padding: 1px;
+    }
+    .Tthree p{
+        max-width: 100%;
+        line-height: 26px;
+        font-size: 17px;
+        line-height: 33px;
+        color: rgb(227, 227, 227);
+    }
+    .Mob{
+        display: none;
+    }
+    .Trust{
+        max-width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        left: 20px;
+    }
+    .Trust div{
+        width: 40%;
+        padding: 10px;
+        margin: 5px;
+    }
+    .Sm{
+        position: relative;
+        left: 15px;
+    }
+     .Tthree h1{
+        font-size: 24px;
+        max-width: 100%;
+    }
+
+}

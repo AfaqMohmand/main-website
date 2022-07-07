@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Inter&display=swap');
+
+
+.Main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+} 
+.Layout{
+    background: linear-gradient(180deg, #000000 0%, #0B0F12 100%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.Layout main{
+    overflow: hidden;
+    width: 100%;
+}

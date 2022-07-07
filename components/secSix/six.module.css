@@ -1,0 +1,221 @@
+.Sone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(180deg, #0B0F12 0%, #0000 100%);
+
+}
+
+.Right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.Left{
+    /* background-color: aqua; */
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Mtag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    height: 100%;
+}
+.BigIn{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 40px;
+}
+.BigIn h1{
+    background-color: rgb(46, 45, 45);
+    padding: 160px 200px;
+    border-radius: 15px;
+}
+.Bione{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+}
+.Bione p{
+    font-size: 18px;
+    margin: 5px 15px;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 8px;
+
+}
+.Bione span{
+    margin: 5px 15px;
+    background-color: rgb(35, 35, 35);
+    padding: 5px 15px;
+    border-radius: 8px;
+
+    font-size: 18px;
+}
+
+.TexB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.TexB p{
+    margin-top:-5px ;
+}
+
+.Bimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 65%;
+}
+.Bimg p{
+    background-color: blueviolet;
+    border-radius: 100%;
+    padding: 10px;
+}
+.Bimg span {
+    padding: 5px 15px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+/* Small Box */
+.SmOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 160px;
+}
+.SmOne h1{
+    background-color: rgb(92, 92, 92);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.Smtex{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    padding: 5px 15px;
+}
+.Smtex p{
+    background-color: rgb(75, 75, 75);
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.Smtex span{
+    margin-left: 20px;
+    background-color: rgb(108, 108, 108)    ;
+    height: max-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.Lor{
+    font-size: 20px;
+    max-width: 10%;
+    /* padding: 10px 20px; */
+    text-align: left;
+}
+.Paki{
+    position:relative;
+    right:30%;
+    margin-bottom:90px
+}
+.Ham{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .Ham{
+        width: 100%;
+        /* background-color: blue; */
+        display: block !important;
+        display: flex !important;
+        margin-top: 10px;
+        position: relative;
+        left: 10px;
+        flex-direction: row;
+    }
+    .Paki{
+        right: inherit;
+        top: 80px;
+    }
+    .Left{
+        width: 90%;
+        display: none;
+    }
+    .Right{
+        width: 95%;
+    }
+    .Mtag{
+        flex-wrap: wrap;
+    }
+    .Sone{
+        flex-direction: column;
+    }
+    .BigIn h1{
+        padding: 120px;
+    }
+    .BigIn{
+        margin-left: 1px;
+    }
+    .TexB{
+        width: 100%;
+    }
+    .TexB h2{
+        font-size: 20px;
+    }
+    .TexB p{
+        font-size: 16px;
+    }
+    .Sone{
+        position: relative;
+        bottom: 250px;
+    }
+    .SmOne h1{
+        padding: 30px;
+    }
+     
+    .Lor{
+        position: relative;
+        top: -10px;
+        font-size: 16px;
+    }
+    .Smtex p {
+        font-size: 14px;
+    }
+    .Smtex span{
+        font-size: 14px;
+        position: relative;
+        bottom: 4px;
+    }
+ 
+
+}

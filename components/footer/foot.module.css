@@ -1,0 +1,104 @@
+.Fone{
+    /* height: 60vh; */
+    background: rgb(0, 0, 0);
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    position: relative;
+    height: max-content;
+}
+.Ftwo{
+    display: flex;
+    align-items: flex-start;    
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px 5px;
+    border-top: 1px solid #414141;
+    border-bottom: 1px solid #414141;
+
+}
+
+.Lone img{
+    object-fit: contain;
+}
+.LTwo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.Copright{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    width: 90%;
+}
+.CopyI img{
+    object-fit: contain;
+    width: 100%;
+
+}
+.CLast p{
+    font-size: 14px;
+    padding: 10px 50px;
+    color: #00BCB3;
+}
+.CopyI p{
+    color: #00BCB3;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.Tex{
+    color: rgba(255, 255, 255, 0.5);
+    /* font-family: 'Inter'; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+    padding: 5px;
+}
+.Tex:hover{
+    color: white;
+}
+.Left{
+    position: relative;
+    right: 1%;
+}
+
+/*  */
+@media only screen and (max-width: 600px) {
+    .LThrr{
+        display: none;
+    }
+    .Ftwo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        bottom: 140px;
+    }
+    .Copright{
+        position: relative;
+        bottom: 150px;
+    }
+    .Fone{
+        height: 80vh;
+        position: relative;
+    }
+    .Lone{
+        position: relative;
+    }
+    .Tex{
+        font-size: 15px;
+    }
+
+}

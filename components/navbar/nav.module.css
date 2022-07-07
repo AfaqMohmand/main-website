@@ -1,0 +1,111 @@
+ /* importy font family  */
+ 
+ .None {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+    font-family: 'Inter', sans-serif;
+
+ }
+ 
+ .Ntwo {
+     /* background-color: rgb(63, 62, 62); */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row;
+     width: 100%;
+     padding: 1px 7px;
+ }
+ 
+ .Nthree {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-right: 3%;
+     top: 0px;
+     /* position: relative; */
+ }
+ 
+ .nItem {
+     text-transform: capitalize;
+     cursor: pointer;
+     margin: 0px 24px;
+     color: white;
+     line-height: 24px;
+     font-size: 16px;
+     font-weight: 400;
+     height: 24px;
+ }
+ .Close{
+     display: none;
+ }
+ 
+ .logo {
+     color: wheat;
+     margin-left: 2%;
+     font-size: 1.3em;
+ }
+ .logo img{
+     object-fit: contain;
+ }
+
+ .Buyy{
+     display: none;
+ }
+
+ /*Mobile view   */
+@media only screen and (max-width: 600px) {
+    .Close{
+        position: relative;
+        left: 150px;
+        top: 30px;
+        display: block;
+    }
+    .Buyy{
+        display: block;
+    }
+    .Nthree{
+        /* top: -20%; */
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        flex-direction: column;
+        background: #202224;
+        z-index: 1;
+        transition: all 0.5s ease-in-out;
+        border-radius: 20px;
+    }
+    .nItem::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #00BCB3;
+        border-bottom: 1px solid silver;
+        bottom: -20px;
+    }
+    .nItem{
+        color: white;
+        /* border-bottom: 1px solid silver; */
+        font-size: 22px;
+        font-weight: 600;
+        /* background-image: linear-gradient(to right, #2727eb, #3e0af8); */
+        margin: 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 20px 20px;
+        position: relative;
+        /* border: none; */
+        /* box-shadow:  0px 0px 10px #0303f9; */
+    }
+    .Ntwo{
+            z-index: 1;
+        /* position: fixed; */
+    }
+}

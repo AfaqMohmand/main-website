@@ -1,0 +1,178 @@
+.SeOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100%;
+    background: linear-gradient(180deg, #000000 0%, #0B0F12 100%);
+
+    margin-top: 100px;
+    position: relative;
+}
+.SeTwo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.Stop{
+    position: relative;
+    right: 37%;
+    margin-bottom: 55px;
+}
+.Info{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 90vh;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 10px 50px;
+    background: #202224;
+    border-radius: 8px
+}
+.Form{
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 15px 100px;
+    /* background-color: antiquewhite; */
+
+}
+.InOne{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 35px;    
+}
+.InOne h1{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.InOne p{
+    width: 90%;
+    font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+}
+
+.Loco{
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+.Loco img{
+    object-fit: contain;
+}
+
+.Loco div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.Circ{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 55%;
+    bottom: 1%;
+    opacity: 0.7;
+    z-index: 2;
+
+}
+.Red{
+    background-color: orangered;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 40%;
+    left: 45%;
+}
+.Blue{
+    background-color: rgb(0, 255, 255);
+    width:  180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+     }
+
+.Inpo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.Inpo span{
+    margin-bottom: 15px;
+}
+.Inpo input{
+    background: transparent;
+    color: #979797;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    /* border-bottom: 1px solid #414141; */
+}
+.Inpo input[type="text"]:focus{
+    outline: none;
+    border: none;
+}
+.The{
+    display:flex;
+    flex-direction: row;
+}
+ 
+@media only screen and (max-width: 600px) {
+    .The{
+        flex-direction: column;
+    }
+    .The span{
+        margin-top: 30px;
+    }
+    .SeTwo{
+        flex-direction: column;
+    }
+    .Info{
+        display: none;
+        width: 95%;
+    }
+    .Stop{
+        width: 95%;
+        right: 10px;
+    }
+    .Form{
+        width: 100%;
+        padding: auto;
+        margin-right:110px ;
+    }
+    .Stop{
+        right: -30%;
+    margin-bottom: 1px;
+    }
+    .SeOne{
+        position: relative;
+        top: -120px;
+        height: 500px;
+        background-color: blue;
+    }
+    .Inpo p{
+        width: 450px;
+    }
+}

@@ -1,0 +1,119 @@
+.sOne {
+    width: 100%;
+    /* height: 90vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #000000 0%, #0B0F12 100%);
+    color: #FFFFFF;
+
+}
+
+.sTwo {
+    /* background: rgb(39, 39, 39); */
+    max-width: 50%;
+}
+
+.sTwo h1 {
+    font-weight: 600;
+    font-size: 90px;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.sTwo h2 {
+    font-family: 'ABeeZee', sans-serif;
+
+    letter-spacing: 0.1em;
+    font-size: 32px;
+    max-width: 70%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sTwo p {
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 80%;
+    font-weight: 400;
+}
+
+.buttn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+ 
+.bTwo {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.watch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* Move */
+.Move{
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.Move p{
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1.8em;
+}
+/* FOR mOBILE views` */
+@media only screen and (max-width: 600px) {
+    .buttn{
+        position: relative;
+        bottom: 40px;
+        /* margin-bottom : 3%; */
+    }
+    .sOne{
+        background-color: blue;
+        flex-direction: column;
+    }
+    .sTwo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 95%;
+        text-align: center;
+    }
+    .sTwo h1{
+        font-size: 4.5em;
+    }
+    .sTwo h2{
+        font-size: 12px;
+        position: relative;
+        top: -50px;
+    }
+    .sTwo p{
+        font-size: 1em;
+        position: relative;
+        top: -50px;
+        max-width: 95%;
+    }
+}
+/* For the Large screen */
+@media only screen and (max-width: 1250px) {
+ 
+}
